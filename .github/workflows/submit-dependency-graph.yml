@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        components: [nextflow, plugins:nf-google, plugins:nf-amazon, plugins:nf-azure, plugins:nf-cloudcache, plugins:nf-codecommit, plugins:nf-console, plugins:nf-tower, plugins:nf-wave]
+        components: ["nextflow", "plugins:nf-google", "plugins:nf-amazon", "plugins:nf-azure", "plugins:nf-cloudcache", "plugins:nf-codecommit", "plugins:nf-console", "plugins:nf-tower", "plugins:nf-wave"]
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-java@v4
